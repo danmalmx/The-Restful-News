@@ -14,12 +14,12 @@
  *= require_self
  */
  a {
-    color: blue;
+    color: #707B7C;
     text-decoration: none;
  }
 
  a:visited {
-    color: blue; 
+    color: #707B7C; 
  }
 
  img {
@@ -28,7 +28,8 @@
     float: left;
 }
 
- h4, p {
+ h3, p {
     display: grid;
     padding-left: 5px;
+    padding-bottom: 5px;
 }

@@ -1,6 +1,6 @@
 class MainController < ApplicationController
   def index
-    @apifeed = FeedService.get_feed('politics', 'bbc-news', 'bbc.co.uk', 10)
+    @apifeed = FeedService.get_feed('everything', '', '', 20)
     @top_article = @apifeed.first
   end
 end
