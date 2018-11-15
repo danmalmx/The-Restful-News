@@ -1,4 +1,4 @@
-@javascript
+#@javascript
 @api_call_main_page
 Feature: User roles
   As a site owner,
@@ -22,7 +22,7 @@ Feature: User roles
     Given the following articles are in the database
     | title              | content  | author | approved  | category    |
     | Selfmade article   | Battles  | Snorre | true      | History     |
-    | WW3                | Robots   | Snorre | false     | History     |
+    | WW3                | Robots   | Snorre | true     | History     |
 
   Scenario: Normal user can only see articles from API [Happy path]
     Given I am signed in as "standard@example.com"
