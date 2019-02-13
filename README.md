@@ -20,3 +20,6 @@ Webmock stubbing API calls
 * **Daniel Malmgren de Oliveira**
 
 Part of Craft Academy
+
+## Instructions
+Username: dashboard@test.com / password: 123123 for full admin priveledges. 
